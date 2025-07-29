@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/contactoStyle.css">
+    <title>Contacto</title>
+</head>
+<body>
+    
+    <header id="main-header">
+        <a href="#" id="logo-header">
+            <span class="site-name">Sergio Balero</span>
+            <span class="site-desc">Diseño Web - PySW/HTML - CSS</span>
+        </a>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="chckbtn">
+                🍔
+            </label>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="acercaDe.html">Acerca De</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Formulario de Contacto</h2>
+        <form action="" method="post">
+            <div class="form-group">
+                <label for="nombre" >Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="apellido" >Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+            <div class="form-group">
+                <label for="dni" >DNI:</label>
+                <input type="text" id="dni" name="dni" required>
+            </div>
+            <div class="form-group">
+                <label for="email" >Correo Electronico:</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje" >Mensaje:</label>
+                <textarea type="text" id="mensaje" name="mensaje" rows="4" required> </textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <!-- Inicio del Pie de pagina -->
+    <footer id="main-footer">
+        <p>
+            &copy; 2025 <a href="https://www.facebook.com" target="_blank">Diseño Web - PySW-UNJU-LQ</a>
+        </p>
+    </footer>
+
+</body>
+</html>
